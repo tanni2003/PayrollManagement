@@ -1,2 +1,2 @@
-# PayrollManagement
-* 급여관리 시스템입니다.
+# YumYumTanni
+* 맛있는 것을 먹는 것이 행복한 탠니가 만든 웹 사이트입니다.
