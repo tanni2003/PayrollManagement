@@ -3,22 +3,58 @@
 <head>
 <title>YumYumTanni</title>
 <meta charset="utf-8">
+<style>
+  body{
+    margin: 0;
+  }
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  h1{
+    font-size: 45px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin: 0;
+    padding: 20px;
+  }
+  ul{
+    border-right: 1px solid gray;
+    width: 100;
+    margin: 0;
+    padding: 20px;
+  }
+  #grid ul{
+    padding-left: 33px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid #content{
+    padding-left: 20px;
+  }
+</style>
 </head>
 
 <body>
   <h1><a href="index.html">YumYumTanni</a></h1>
-  <ul>
-    <li><a href="seoul.html">Seoul</a></li>
-    <li><a href="fukuoka.html">Fukuoka</a></li>
-    <li><a href="newyork.html">NewYork</a></li>
-    <li><a href="sanfrancisco.html">Sanfrancisco</a></li>
-  </ul>
-<h2>냠냠탠니</h2>
-<img src="tanni.jpeg" width="200">
-<p><a href="https://github.com/tanni2003"
-  target="_blank" title="tanni's github site">Tanni's github</a></p>
-<p>세상에 맛있는것은 정말 많다. <strong><u>정말로.</u></strong></p>
-<p style="margin-top:20px;">미식가 냠냠탠니가 여행하며 먹고 솔직하게 리뷰한 음식, 가게만 올립니다.</p>
+  <div id="grid">
+    <ul>
+      <li><a href="seoul.html">Seoul</a></li>
+      <li><a href="fukuoka.html">Fukuoka</a></li>
+      <li><a href="newyork.html">NewYork</a></li>
+      <li><a href="sanfrancisco.html">Sanfrancisco</a></li>
+    </ul>
+  <div id="content">
+    <h2>냠냠탠니</h2>
+    <img src="tanni.jpeg" width="200">
+    <p><a href="https://github.com/tanni2003"
+      target="_blank" title="tanni's github site">Tanni's github</a></p>
+      <p>세상에 맛있는것은 정말 많다. <strong><u>정말로.</u></strong></p>
+      <p style="margin-top:20px;">미식가 냠냠탠니가 여행하며 먹고 솔직하게 리뷰한 음식, 가게만 올립니다.</p>
+  </div>
+</div>
 <p>
   <div id="disqus_thread"></div>
   <script>
