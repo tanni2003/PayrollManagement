@@ -1,5 +1,4 @@
 <style>
-@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
   body{
     margin: 0;
@@ -7,7 +6,7 @@
   body{
     height: 100vh;
     background: linear-gradient(#FFFFFF 40%, #F8E0EC);
-    font-family: fantasy;
+    font-family: 'Nanum Pen Script', cursive;
     font-size: 20px;
   }
   a{
@@ -32,7 +31,7 @@
   }
   #grid ul{
     padding-left: 33px;
-    font-size: 15px;
+    font-size: 20px;
   }
   #grid{
     display: grid;
