@@ -1,6 +1,11 @@
 <style>
   body{
     margin: 0;
+    background-color: #FFCCE6;
+  }
+  body{
+    height: 100vh;
+    background: linear-gradient(#FFFFFF 40%, #F8E0EC);
   }
   a{
     color:black;
